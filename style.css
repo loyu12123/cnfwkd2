@@ -308,13 +308,15 @@ button:hover{
 
 #memoText{
 
-    padding:35px 50px;
+    margin:0;
+
+    padding:28px 40px;
 
     white-space:pre-wrap;
 
-    font-size:22px;
+    font-size:18px;
 
-    line-height:2;
+    line-height:1.7;
 
     color:#222;
 
