@@ -321,3 +321,7 @@ button:hover{
     font-family:"맑은 고딕", sans-serif;
 
 }
+
+pre{
+    margin:0;
+}
