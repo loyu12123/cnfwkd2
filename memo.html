@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>메모장</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="desktopBody">
+
+<div class="window">
+
+    <div class="windowTop">
+
+        <span>📝 메모장</span>
+
+    </div>
+
+    <pre id="memoText"></pre>
+
+</div>
+
+<script>
+
+const memo = document.getElementById("memoText");
+
+memo.textContent =
+`업무 메모
+
+────────────────────
+
+□ 15:00 E조 회의
+
+□ A-17 보고서 검토
+
+□ 윤해 자료 확인
+
+□ 샘플 정리
+
+
+누구세요?`;
+
+setTimeout(()=>{
+
+memo.textContent += "\n\n아, 읽으셨네요.";
+
+},800);
+
+setTimeout(()=>{
+
+memo.textContent += "\n\n당신은 에리 씨가 아니죠?";
+
+},1600);
+
+</script>
+
+</body>
+
+</html>
