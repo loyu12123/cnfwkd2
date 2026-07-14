@@ -305,3 +305,19 @@ button:hover{
     color:#777;
 
 }
+
+#memoText{
+
+    padding:50px 70px;
+
+    white-space:pre-wrap;
+
+    font-size:26px;
+
+    line-height:55px;
+
+    color:#222;
+
+    font-family:"맑은 고딕";
+
+}
