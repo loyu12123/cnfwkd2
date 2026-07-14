@@ -308,16 +308,16 @@ button:hover{
 
 #memoText{
 
-    padding:50px 70px;
+    padding:35px 50px;
 
     white-space:pre-wrap;
 
-    font-size:26px;
+    font-size:22px;
 
-    line-height:55px;
+    line-height:2;
 
     color:#222;
 
-    font-family:"맑은 고딕";
+    font-family:"맑은 고딕", sans-serif;
 
 }
