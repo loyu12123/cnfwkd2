@@ -1,0 +1,307 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background:#f5f7fa;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    height:100vh;
+
+}
+
+/* 로그인 박스 */
+
+.login-box{
+
+    width:480px;
+
+    background:white;
+
+    border:1px solid #d7dde7;
+
+    border-radius:10px;
+
+    padding:45px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
+
+}
+
+/* 제목 */
+
+h1{
+
+    color:#1f3d70;
+
+    text-align:center;
+
+    letter-spacing:3px;
+
+    margin-bottom:8px;
+
+}
+
+/* 부제목 */
+
+.subtitle{
+
+    color:#777;
+
+    text-align:center;
+
+    font-size:14px;
+
+    margin-bottom:25px;
+
+}
+
+/* 구분선 */
+
+.divider{
+
+    height:1px;
+
+    background:#d9dee6;
+
+    margin-bottom:25px;
+
+}
+
+/* 인증 */
+
+.auth{
+
+    color:#1f3d70;
+
+    font-weight:bold;
+
+    margin-bottom:15px;
+
+}
+
+/* 입력창 */
+
+input{
+
+    width:100%;
+
+    padding:14px;
+
+    font-size:16px;
+
+    border:1px solid #c9d0db;
+
+    border-radius:6px;
+
+    outline:none;
+
+    transition:.3s;
+
+}
+
+/* 입력 중 */
+
+input:focus{
+
+    border-color:#1f3d70;
+
+    box-shadow:0 0 10px rgba(31,61,112,.15);
+
+}
+
+/* 버튼 */
+
+button{
+
+    width:100%;
+
+    margin-top:20px;
+
+    padding:14px;
+
+    border:none;
+
+    border-radius:6px;
+
+    background:#1f3d70;
+
+    color:white;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+/* 버튼 호버 */
+
+button:hover{
+
+    background:#2d5aa0;
+
+}
+
+/* 오류 */
+
+#error{
+
+    text-align:center;
+
+    color:#b40000;
+
+    margin-top:18px;
+
+    min-height:20px;
+
+}
+
+/* 로딩 화면 */
+
+#loading{
+
+    position:fixed;
+
+    inset:0;
+
+    background:#ffffff;
+
+    display:none;
+
+    justify-content:center;
+    align-items:center;
+
+    flex-direction:column;
+
+}
+
+/* 타이핑 글씨 */
+
+#loadingText{
+
+    color:#c9a227;
+
+    font-size:22px;
+
+    line-height:40px;
+
+    white-space:pre-wrap;
+
+    font-family:Consolas, monospace;
+
+}
+
+.desktopBody{
+
+    background:#eef2f7;
+
+}
+
+.window{
+
+    width:850px;
+
+    height:620px;
+
+    background:white;
+
+    border-radius:10px;
+
+    overflow:hidden;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.15);
+
+}
+
+.windowTop{
+
+    height:50px;
+
+    background:#1f3d70;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:0 20px;
+
+}
+
+.windowButtons{
+
+    display:flex;
+
+    gap:8px;
+
+}
+
+.windowButtons div{
+
+    width:12px;
+    height:12px;
+
+    border-radius:50%;
+
+    background:white;
+
+    opacity:.6;
+
+}
+
+.folderArea{
+
+    padding:35px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.folder{
+
+    text-decoration:none;
+
+    color:#1f3d70;
+
+    font-size:20px;
+
+    transition:.25s;
+
+}
+
+.folder:hover{
+
+    color:#c9a227;
+
+    transform:translateX(8px);
+
+}
+
+.status{
+
+    position:absolute;
+
+    bottom:25px;
+
+    left:35px;
+
+    color:#777;
+
+}
